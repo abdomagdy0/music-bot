@@ -22,7 +22,7 @@ module.exports = {
         await interaction.reply( {
             embeds: [
                 new EmbedBuilder().
-                setDescription(` Paused ${currentsong.title}  || `)
+                setDescription(` Paused ${currentsong.title}  || c`)
                 .setThumbnail(currentsong.thumbnail)
             ]
         })
