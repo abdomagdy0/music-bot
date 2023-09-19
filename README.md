@@ -6,7 +6,6 @@ Echo-music-bot
 
 `/play song`:
 This command allows the bot to search for entered URLs and play the corresponding song.
-Example:
 
  ` /play https://www.youtube.com/watch?v=dQw4w9WgXcQ `
  
