@@ -7,7 +7,8 @@ Echo-music-bot
 `/play song`:
 This command allows the bot to search for entered URLs and play the corresponding song.
 Example:
-  ` /play https://www.youtube.com/watch?v=dQw4w9WgXcQ `
+
+ ` /play https://www.youtube.com/watch?v=dQw4w9WgXcQ `
  
 `/play search`:
 With this command, you can enter the name of a song and the bot will use the ytdl-core streaming library to find it on YouTube.
