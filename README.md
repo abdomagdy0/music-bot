@@ -1,21 +1,20 @@
 Echo-music-bot
 
-# Description:
-## This is a music bot for Discord, built using the NodeJS environment and discordjs with ytdl-core library. The bot is able to play songs or playlists from YouTube through a variety of commands. There are 7 commands in total:
+### Description:
+## This is a music bot for Discord, built using NodeJS runtime environment, DiscordJS, and ytdl-core libraries.
+## The bot is able to play songs or playlists from YouTube through a variety of commands. There are 7 commands in total:
 
 `/play song`: This command allows the bot to search for entered URLs and play the corresponding song.
-
-`/play playlist`:
- This command works similarly to the /play song command but is specifically for playlists.
- 
- ![image](https://github.com/abdomagdy0/music-bot/assets/91535529/64597661-6be4-4dad-8955-4e89746981fa)
+Example: '/play https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 
  
 `/play search`:
 With this command, you can enter the name of a song and the bot will use the ytdl-core streaming library to find it on YouTube.
 
-![image](https://github.com/abdomagdy0/music-bot/assets/91535529/efdc3e00-a6a7-460d-8364-682fbe315817)
+`/play playlist`:
+ This command works similarly to `/play search`  but is specifically for playlists.
 
+![image](https://github.com/abdomagdy0/music-bot/assets/91535529/efdc3e00-a6a7-460d-8364-682fbe315817)
 
 `/pause`:
  pauses the current song.
